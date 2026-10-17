@@ -16,9 +16,10 @@ jobs:
       matrix:
         include:
           - minecraft: "1.21.4"
-            project: "mc1.21.4"
+            project: "Custom_HUD_GUI_Fabric_FIXED/custom-hud-gui/mc1.21.4"
           - minecraft: "1.21.11"
-            project: "mc1.21.11"
+            project: "Custom_HUD_GUI_Fabric_FIXED/custom-hud-gui/mc1.21.11"
+
 
     steps:
       - name: Checkout repository
